@@ -7,6 +7,14 @@ namespace rockPaperScissors
         static void Main(string[] args)
         {
 
+            int userScore = 0;
+            int compScore = 0;
+            bool playing = true;
+
+            while(playing) {
+
+
+
             Console.WriteLine("Choose R for Rock, P for Paper, or S for Scissors");
             string userInput = Console.ReadLine();
 
@@ -24,28 +32,55 @@ namespace rockPaperScissors
                     Console.WriteLine("Tie Game!");
                 } else if(userInput == "P") {
                     Console.WriteLine("Nice Job, You Win!");
+                    userScore++;
                 } else if(userInput == "S") {
                     Console.WriteLine("You Lose! HAHA");
+                    compScore++;
                 }
             } else if(compChoice == "P") {
                 if(userInput == "R") {
                     Console.WriteLine("You Lose! HAHA");
+                    compScore++;
                 } else if(userInput == "P") {
                     Console.WriteLine("Tie Game!");
                 } else if(userInput == "S") {
                     Console.WriteLine("Nice Job, You Win!");
+                    userScore++;
                 }
             } else if(compChoice == "S") {
                 if(userInput == "R") {
                     Console.WriteLine("Nice Job, You Win!");
+                    userScore++;
                 } else if(userInput == "P") {
                     Console.WriteLine("You Lose! HAHA");
+                    compScore++;
                 } else if(userInput == "S") {
                     Console.WriteLine("Tie Game");
                 }
             }
 
+            Console.WriteLine("Would you like to see the score, Peasant?  Y/N");
+            string scoreCheck = Console.ReadLine();
 
+            if(scoreCheck == "Y") Console.WriteLine("User score = " + userScore + " , Computer Score = " + compScore);
+              
+
+                Console.WriteLine("Play again? Y/N");
+
+                string userPlayAgain = Console.ReadLine();
+
+                if(userPlayAgain == "Y") {
+                    playing = true;
+                } else {
+                    playing = false;
+                }
+                
+            
+            
+            
+            
+
+            }
         
         }
     }
