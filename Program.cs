@@ -16,6 +16,7 @@ namespace rockPaperScissors
 
 
             Console.WriteLine("Choose R for Rock, P for Paper, or S for Scissors");
+            Console.WriteLine("...");
             string userInput = Console.ReadLine();
 
             string[] choices = new [] { "R", "P", "S" };
@@ -28,49 +29,51 @@ namespace rockPaperScissors
 
             //brute method with conditional, prolly not the best way
             if(compChoice == "R") {
-                if(userInput == "R") {
+                if(userInput == "R" || userInput == "r") {
                     Console.WriteLine("Tie Game!");
-                } else if(userInput == "P") {
+                } else if(userInput == "P" || userInput == "p") {
                     Console.WriteLine("Nice Job, You Win!");
                     userScore++;
-                } else if(userInput == "S") {
+                } else if(userInput == "S" || userInput == "s") {
                     Console.WriteLine("You Lose! HAHA");
                     compScore++;
                 }
             } else if(compChoice == "P") {
-                if(userInput == "R") {
+                if(userInput == "R" || userInput == "r") {
                     Console.WriteLine("You Lose! HAHA");
                     compScore++;
-                } else if(userInput == "P") {
+                } else if(userInput == "P" || userInput == "p") {
                     Console.WriteLine("Tie Game!");
-                } else if(userInput == "S") {
+                } else if(userInput == "S" || userInput == "s") {
                     Console.WriteLine("Nice Job, You Win!");
                     userScore++;
                 }
             } else if(compChoice == "S") {
-                if(userInput == "R") {
+                if(userInput == "R" || userInput == "r") {
                     Console.WriteLine("Nice Job, You Win!");
                     userScore++;
-                } else if(userInput == "P") {
+                } else if(userInput == "P" || userInput == "p") {
                     Console.WriteLine("You Lose! HAHA");
                     compScore++;
-                } else if(userInput == "S") {
+                } else if(userInput == "S" || userInput == "s") {
                     Console.WriteLine("Tie Game");
                 }
             }
 
             //score check
             Console.WriteLine("Would you like to see the score, Peasant?  Y/N");
+            Console.WriteLine("...");
             string scoreCheck = Console.ReadLine();
 
-            if(scoreCheck == "Y") Console.WriteLine("User score = " + userScore + " , Computer Score = " + compScore);
+            if(scoreCheck == "Y" || scoreCheck == "y") Console.WriteLine("User score = " + userScore + " , Computer Score = " + compScore);
               
                 //play again to keep loop or exit
                 Console.WriteLine("Play again? Y/N");
+                Console.WriteLine("...");
 
                 string userPlayAgain = Console.ReadLine();
 
-                if(userPlayAgain == "Y") {
+                if(userPlayAgain == "Y" || userPlayAgain == "y") {
                     playing = true;
                 } else {
                     playing = false;
