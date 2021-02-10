@@ -14,7 +14,7 @@ namespace rockPaperScissors
             while(playing) {
 
 
-
+            
             Console.WriteLine("Choose R for Rock, P for Paper, or S for Scissors");
             Console.WriteLine("...");
             string userInput = Console.ReadLine();
@@ -78,11 +78,7 @@ namespace rockPaperScissors
                 } else {
                     playing = false;
                 }
-                
-            
-            
-            
-            
+  
 
             }
         
