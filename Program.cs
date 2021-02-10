@@ -5,27 +5,23 @@ namespace rockPaperScissors
     class Program
     {
 
-
             //work in progess
-
-            
         // static void ChooseDifficulty() {
         //     Console.WriteLine(" Press 1 for EZ mode or 2 for HARDMODE...");
         //     Console.WriteLine(" ");
-
-
         // }
-        static void Main(string[] args)
-        {
 
+
+        //rock paper scissors CLI game
+        static void Main(string[] args)
+        {         
             int userScore = 0;
             int compScore = 0;
             bool playing = true;
 
             while(playing) {
-
-
-            
+                //we gonna keep this loop until we choose y/n at end to exit loop
+                    
             Console.WriteLine("Choose R for Rock, P for Paper, or S for Scissors");
             Console.WriteLine("...");
             string userInput = Console.ReadLine();
@@ -37,6 +33,7 @@ namespace rockPaperScissors
             int compChooses = randomChoice.Next(0, choices.Length);
             string compChoice = choices[compChooses];
             Console.WriteLine("The computer chose " + choices[compChooses]);
+
 
             //brute method with conditional, prolly not the best way
             if(compChoice == "R") {
@@ -89,10 +86,7 @@ namespace rockPaperScissors
                 } else {
                     playing = false;
                 }
-  
-
-            }
-        
+            }    
         }
     }
 }
