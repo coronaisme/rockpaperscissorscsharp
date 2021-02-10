@@ -11,12 +11,14 @@ namespace rockPaperScissors
             string userInput = Console.ReadLine();
 
             string[] choices = new [] { "R", "P", "S" };
+
+            //dont judge my variable names, im new here
             Random randomChoice = new Random();
             int compChooses = randomChoice.Next(0, choices.Length);
             string compChoice = choices[compChooses];
             Console.WriteLine("The computer chose " + choices[compChooses]);
 
-            
+            //brute method with conditional, prolly not the best way
             if(compChoice == "R") {
                 if(userInput == "R") {
                     Console.WriteLine("Tie Game!");
