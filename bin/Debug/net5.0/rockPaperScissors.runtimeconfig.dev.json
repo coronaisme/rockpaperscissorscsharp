@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/corona/.dotnet/store/|arch|/|tfm|",
+      "/Users/corona/.nuget/packages"
+    ]
+  }
+}

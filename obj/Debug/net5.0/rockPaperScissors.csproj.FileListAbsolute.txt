@@ -1,0 +1,15 @@
+/Users/corona/Development/code/revature/rockPaperScissors/bin/Debug/net5.0/rockPaperScissors.deps.json
+/Users/corona/Development/code/revature/rockPaperScissors/bin/Debug/net5.0/rockPaperScissors.runtimeconfig.json
+/Users/corona/Development/code/revature/rockPaperScissors/bin/Debug/net5.0/rockPaperScissors.runtimeconfig.dev.json
+/Users/corona/Development/code/revature/rockPaperScissors/bin/Debug/net5.0/rockPaperScissors.dll
+/Users/corona/Development/code/revature/rockPaperScissors/bin/Debug/net5.0/ref/rockPaperScissors.dll
+/Users/corona/Development/code/revature/rockPaperScissors/bin/Debug/net5.0/rockPaperScissors.pdb
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/rockPaperScissors.csprojAssemblyReference.cache
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/rockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/rockPaperScissors.AssemblyInfoInputs.cache
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/rockPaperScissors.AssemblyInfo.cs
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/rockPaperScissors.csproj.CoreCompileInputs.cache
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/rockPaperScissors.dll
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/ref/rockPaperScissors.dll
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/rockPaperScissors.pdb
+/Users/corona/Development/code/revature/rockPaperScissors/obj/Debug/net5.0/rockPaperScissors.genruntimeconfig.cache
