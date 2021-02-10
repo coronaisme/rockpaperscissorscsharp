@@ -59,12 +59,13 @@ namespace rockPaperScissors
                 }
             }
 
+            //score check
             Console.WriteLine("Would you like to see the score, Peasant?  Y/N");
             string scoreCheck = Console.ReadLine();
 
             if(scoreCheck == "Y") Console.WriteLine("User score = " + userScore + " , Computer Score = " + compScore);
               
-
+                //play again to keep loop or exit
                 Console.WriteLine("Play again? Y/N");
 
                 string userPlayAgain = Console.ReadLine();
