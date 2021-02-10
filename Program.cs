@@ -4,6 +4,17 @@ namespace rockPaperScissors
 {
     class Program
     {
+
+
+            //work in progess
+
+            
+        // static void ChooseDifficulty() {
+        //     Console.WriteLine(" Press 1 for EZ mode or 2 for HARDMODE...");
+        //     Console.WriteLine(" ");
+
+
+        // }
         static void Main(string[] args)
         {
 
